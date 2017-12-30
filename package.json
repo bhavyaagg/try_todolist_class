@@ -1,0 +1,23 @@
+{
+  "name": "try-todolist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhavyaagg/try_todolist_class.git"
+  },
+  "author": "Bhavya Aggarwal <bhavyaaggarwal1209@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhavyaagg/try_todolist_class/issues"
+  },
+  "homepage": "https://github.com/bhavyaagg/try_todolist_class#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
