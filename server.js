@@ -8,7 +8,7 @@ const path = require('path');
 const app = express();
 
 app.use(express.json());
-app.use(express.urlencoded());
+app.use(express.urlencoded({extended: true}));
 
 app.get('/get', (req, res, next) => {
   res.send("Get Working");
